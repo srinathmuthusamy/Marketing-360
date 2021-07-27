@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+ul {
+    display: flex;
+    margin-left: 37rem;
+    margin-top: 5rem;
+}
+li {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+header {
+    background: #0ff;
+    height: 5rem;
+    margin-top: -5rem;
+    width: 100.9vw;
+    margin-left: -20px;
+}
+a:hover {
+    border-bottom: black 1px solid;
+}
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 250px;
+}
+span {
+    color: #282A32;
+}
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 70%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.marketing-img {
+    position: relative;
+    left: 55%;
+    width: 700px;
+    margin-top: 100px;
+    z-index: -1;
+}
+.s2 {
+    overflow-x: hidden;
+}
+.learn-more {
+    position: absolute;
+    top: 400px;
+    left: 120px
+}
+.container {
+    display: flex;
+    width: 80%;
+}
+.card {
+    margin-left: 30px;
+    box-shadow: 10px 10px 75px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 75px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 75px -14px rgba(0,0,0,0.75);
+    margin-top: 5%;
+    border: 1.2px solid black;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    border-radius: 5px;
+    width: 35%;
+}
+.card p {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    font-weight: bold;
+}
+.card h4 {
+    font-size: 20px;
+    text-align: center;
+}
+#one {
+    margin-left: 15rem;
+}
+.card h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.container .card button {
+  border: none;
+  background: #0ff;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0ff, #f0f);
+    z-index: -1;
+    clip-path: circle(30% at right 10%);
+}
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f0f, #f00);
+    z-index: -1;
+    clip-path: circle(30% at left 0% top 100%);
+}
+.about-text {
+    font-size: 35px;
+    position: absolute;
+    left: 43%;
+    top: 20%;
+}
+.paragraph {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    width: 40%;
+    left: 400px;
+}
+footer {
+    margin-top: 35%;
+    background: grey;
+    padding: 20px;
+    width: 105vw;
+    margin-left: -20px;
+}
+.copy {
+    margin-left: 43%;
+    color: white;
+    font-weight: bold;
+}
+.product-footer, .home-footer {
+    margin-top: 10%;
+    background: grey;
+    padding: 20px;
+    width: 105vw;
+    margin-left: -20px;
+}
+.Login {
+    flex-direction: column;
+    place-content: center;
+    margin-top: 5%;
+    width: 30%;
+    border-radius: 5px;
+    height: 600px;
+    margin-left: 35%;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 75px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 75px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 75px -14px rgba(0,0,0,0.75);
+    border: 1.2px solid black;
+}
+.Login::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f00, #f0f);
+    clip-path: circle(30% at 10% 10%);
+    z-index: -1;
+}
+.Login h3 {
+    background: none;
+    font-size: 50px;
+    margin-left: 23%;
+}
+.Login::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0ff, #f0f);
+    clip-path: circle(30% at right 70%);
+    z-index: -1;
+}
+.input, textarea {
+    font-size: 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.03);
+}
+button {
+    font-size: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #0ff;
+    color: black;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+input::placeholder, textarea::placeholder {
+    color: black;
+}
+.contact-footer {
+    margin-top: 10%;
+}
+textarea::placeholder, textarea {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+textarea {
+    height: 50px;
+    width: 80%;
+}
